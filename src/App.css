@@ -1,0 +1,31 @@
+
+.action-button {
+  width: 193px;
+  height: 52px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #F5F7FB;
+}
+
+.margin-top {
+  margin-top: 17px;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.score-message {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #293264;
+}

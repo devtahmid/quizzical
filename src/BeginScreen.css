@@ -1,0 +1,13 @@
+.begin-screen>h1 {
+  text-align: center;
+}
+
+.begin-screen-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  background-color: #F5F7FB;
+  padding: 7px;
+}

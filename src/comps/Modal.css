@@ -1,0 +1,53 @@
+#close-btn {
+  align-self: flex-end;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#close-btn:hover {
+  color: red;
+}
+
+#modal {
+  background-color: white;
+
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 4px solid #4D5B9E;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-name: animateModal;
+  animation-duration: .2s;
+}
+
+
+#modal-container {
+  display: block;
+  /*remove next 3 and see difference*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes animateModal {
+  from {
+    top: 35%;
+    opacity: 0;
+    /*increase animation speed to see diff */
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
